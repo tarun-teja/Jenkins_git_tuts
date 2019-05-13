@@ -6,12 +6,15 @@ pipeline {
     stages {
         stage('build') {
             steps {
+                sh 'date'
                 sh 'cat /etc/*release*'
             }
         }
         stage('Testing 1'){
             steps {
-                sh 'cat /root/testground/nin'
+                sh 'pwd'
+                sh 'ls'
+                #sh 'cat /root/testground/nin'
             }
         }
     }
