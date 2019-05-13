@@ -14,7 +14,7 @@ pipeline {
             steps {
                 sh 'pwd'
                 sh 'ls'
-                #sh 'cat /root/testground/nin'
+                //sh 'cat /root/testground/nin'
             }
         }
     }
