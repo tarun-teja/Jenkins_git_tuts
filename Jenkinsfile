@@ -13,7 +13,8 @@ pipeline {
         }
         stage('Testing 1'){
             steps {
-                sh 'cat /root/testground/nin'
+                //sh 'cat /root/testground/nin'
+                  sh 'echo "excludin this coz we are not mounting stuff"'
             }
         }
     }
