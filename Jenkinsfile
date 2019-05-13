@@ -6,6 +6,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
+                //forgot to add stuff
                 sh 'date'
                 sh 'cat /etc/*release*'
             }
