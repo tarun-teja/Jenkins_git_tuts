@@ -1,3 +1,5 @@
 This file is added to test a probot setup on a new PR opened. 
 
+
+test_mmerge_branch2 will edit some other file and see whats actually goinf on
 I will be testing similar conditions by adding more files to the PR.
