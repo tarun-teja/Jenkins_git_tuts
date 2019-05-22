@@ -53,11 +53,11 @@ stage ("checkout")
 handleCheckout()
 //checkout scm
 sh "git branch -vv"
-sh "cat testfile"
+//sh "cat testfile"
 }
-/* def MyImage = docker.build("test-image","./docker/vmanage/")
-   * MyImage.inside{
-   * sh 'cat /etc/*release*'
-   * sh 'uname -a'*/
+ def MyImage = docker.build("test-image","./docker/vmanage/")
+     MyImage.inside{
+     sh 'cat /etc/*release*'
+     sh 'uname -a'
 
 }
